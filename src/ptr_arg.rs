@@ -5,7 +5,6 @@
 use rustc::lint::*;
 use rustc_front::hir::*;
 use rustc::middle::ty;
-use rustc::front::map::Node;
 
 use utils::{span_lint, match_type};
 use utils::{STRING_PATH, VEC_PATH};

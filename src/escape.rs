@@ -1,7 +1,6 @@
 use rustc::lint::*;
 use rustc_front::hir::*;
 use rustc_front::intravisit as visit;
-use rustc::front::map::Node;
 use rustc::middle::ty;
 use rustc::middle::ty::adjustment::AutoAdjustment;
 use rustc::middle::expr_use_visitor::*;
