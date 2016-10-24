@@ -350,6 +350,7 @@ All notable changes to this project will be documented in this file.
 [`suspicious_else_formatting`]: https://github.com/Manishearth/rust-clippy/wiki#suspicious_else_formatting
 [`temporary_assignment`]: https://github.com/Manishearth/rust-clippy/wiki#temporary_assignment
 [`temporary_cstring_as_ptr`]: https://github.com/Manishearth/rust-clippy/wiki#temporary_cstring_as_ptr
+[`test_lint`]: https://github.com/Manishearth/rust-clippy/wiki#test_lint
 [`too_many_arguments`]: https://github.com/Manishearth/rust-clippy/wiki#too_many_arguments
 [`toplevel_ref_arg`]: https://github.com/Manishearth/rust-clippy/wiki#toplevel_ref_arg
 [`transmute_ptr_to_ref`]: https://github.com/Manishearth/rust-clippy/wiki#transmute_ptr_to_ref

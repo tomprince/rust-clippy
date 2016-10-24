@@ -174,7 +174,7 @@ You can check out this great service at [clippy.bashy.io](https://clippy.bashy.i
 
 ## Lints
 
-There are 174 lints included in this crate:
+There are 175 lints included in this crate:
 
 name                                                                                                                 | default | triggers on
 ---------------------------------------------------------------------------------------------------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------
@@ -322,6 +322,7 @@ name                                                                            
 [suspicious_else_formatting](https://github.com/Manishearth/rust-clippy/wiki#suspicious_else_formatting)             | warn    | suspicious formatting of `else if`
 [temporary_assignment](https://github.com/Manishearth/rust-clippy/wiki#temporary_assignment)                         | warn    | assignments to temporaries
 [temporary_cstring_as_ptr](https://github.com/Manishearth/rust-clippy/wiki#temporary_cstring_as_ptr)                 | warn    | getting the inner pointer of a temporary `CString`
+[test_lint](https://github.com/Manishearth/rust-clippy/wiki#test_lint)                                               | warn    | item is named `lintme`
 [too_many_arguments](https://github.com/Manishearth/rust-clippy/wiki#too_many_arguments)                             | warn    | functions with too many arguments
 [toplevel_ref_arg](https://github.com/Manishearth/rust-clippy/wiki#toplevel_ref_arg)                                 | warn    | an entire binding declared as `ref`, in a function argument or a `let` statement
 [transmute_ptr_to_ref](https://github.com/Manishearth/rust-clippy/wiki#transmute_ptr_to_ref)                         | warn    | transmutes from a pointer to a reference type
