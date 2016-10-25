@@ -171,7 +171,8 @@ pub fn register_plugins(reg: &mut rustc_plugin::Registry) {
     store.register_removed("string_to_string", "using `string::to_string` is common even today and specialization will likely happen soon");
     // end deprecated lints, do not remove this comment, it’s used in `update_lints`
 
-    reg.register_early_lint_pass(box rust_belt_rust::Pass);
+    reg.register_early_lint_pass(box rust_belt_rust::AstPass);
+    reg.register_late_lint_pass(box rust_belt_rust::HirPass);
     reg.register_late_lint_pass(box serde::Serde);
     reg.register_early_lint_pass(box utils::internal_lints::Clippy);
     reg.register_late_lint_pass(box utils::internal_lints::LintWithoutLintPass::default());
